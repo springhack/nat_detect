@@ -1,0 +1,16 @@
+{
+  "name": "nat-detect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "pkg index.js --out-path dist"
+  },
+  "dependencies": {
+    "nat-type-identifier": "^2.0.12",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.4.1"
+  }
+}
